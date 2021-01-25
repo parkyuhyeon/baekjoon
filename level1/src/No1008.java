@@ -1,14 +1,12 @@
-package level1;
-
 import java.util.Scanner;
 
-public class No1000 {
+public class No1008 {
 	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
     
         int A = scanner.nextInt();
         int B = scanner.nextInt();
     
-        System.out.println(A + B);
+        System.out.println((double) A / B);
     }
 }
