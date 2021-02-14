@@ -5,16 +5,13 @@ import java.util.Scanner;
 public class No2675 {
 
 	public static void main(String[] args) {
-//		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		
-//		int T = scanner.nextInt();
-		int T = 1;
+		int T = scanner.nextInt();
 		
 		for (int i = 0; i < T; i++) {
-//			int R = scanner.nextInt();
-			int R = 5;
-//			String input = scanner.next();
-			String input = "/HTP";
+			int R = scanner.nextInt();
+			String input = scanner.next();
 			String[] arr = input.split("");
 			
 			for (int j = 0; j < arr.length; j++) {
