@@ -19,7 +19,7 @@ public class No1316 {
 		
 		System.out.println(cnt);
 	}
-	
+
 	static boolean checker(String input) {
 		boolean[] flags = new boolean[26];
 		boolean result = true;
